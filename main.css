@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Quantico:400,700&display=swap');
+
+#top-section {
+    background: url('https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+}
+#top-section #content {
+    text-align: center;
+    padding-top: 12%;
+    color: 	#fff;
+    margin-bottom: 8%;
+    opacity: 1;
+    z-index: 200;
+}
+
+.navbar-dark .navbar-brand {
+    color: gold;
+    font-weight: 700;
+    font-family: 'Quantico';
+}
+
+
+.navbar-nav a {
+    transition: all .3s ease-in-out;
+}
+
+.navbar-nav a:hover {
+    border-bottom: 1px solid gold;
+}
+
+.btn {
+    cursor: pointer;
+    background: #000;
+    color: white;
+    transition: all .4s ease-in-out;
+}
+.btn:hover {
+    cursor: pointer;
+    background: gold;
+    color: black;
+}
